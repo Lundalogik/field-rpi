@@ -1,0 +1,4 @@
+if [ -f /boot/xinitrc ]; then
+	ln -fs /boot/xinitrc /home/pi/.xinitrc;
+	su - pi -c 'startx' &
+fi

@@ -1,0 +1,20 @@
+{
+   "browser": {
+      "check_default_browser": false,
+      "last_known_google_url": "https://www.google.se/",
+      "last_prompted_google_url": "https://www.google.se/",
+      "window_placement": {
+	 // will be replaced to screen height by xinitrc
+         "bottom": 1030,
+         "left": 0,
+         "maximized": true,
+	 // will be replaced to screen width by xinitrc
+         "right": 825,
+         "top": 0,
+         "work_area_bottom": 1050,
+         "work_area_left": 0,
+         "work_area_right": 1680,
+         "work_area_top": 0
+      }
+   }
+}
