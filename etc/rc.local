@@ -1,0 +1,5 @@
+KIOSKUSER=pi
+if [ -f /boot/xinitrc ]; then
+	ln -fs /boot/xinitrc /home/$KIOSKUSER/.xinitrc;
+	su - $KIOSKUSER -c 'startx' &
+fi
