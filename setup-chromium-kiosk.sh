@@ -26,6 +26,7 @@ fi
 
 echo Creating rc.local to start X as user $SUDO_USER using our xinitrc
 sed -e "s/KIOSKUSER=pi/KIOSKUSER=$SUDO_USER/g" etc/rc.local > /etc/rc.local
+chmod +x /etc/rc.local
 echo Moving /boot/config.txt to /boot/config.txt.bak
 if [ -f /boot/config.txt ]; then
 	echo Moving existing /boot/config.txt to /boot/config.txt.bak
