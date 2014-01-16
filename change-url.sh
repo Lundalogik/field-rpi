@@ -8,7 +8,7 @@ if [ -z "$newurl" ]; then
 fi
 
 echo "Updating /boot/starturl.txt with URL $newurl"
-sudo echo $newurl > /boot/starturl.txt
+sudo bash -c "echo $newurl > /boot/starturl.txt"
 
 echo "Restarting chromium"
 sudo killall chromium
