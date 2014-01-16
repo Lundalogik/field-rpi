@@ -43,7 +43,8 @@ echo "Done!"
 popd 1>/dev/null
 
 while true; do
-	read -p "Do you wish to reboot?" yn
+	echo "Do you wish to reboot?"
+	read yn
 	case $yn in
 		[Yy]* ) shutdown -r now; break;;
 		[Nn]* ) exit;;
