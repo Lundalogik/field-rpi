@@ -12,7 +12,6 @@ while true; do
 	rm -rf ~/.config;
 	rm -rf ~/.pki;
 	mkdir -p ~/.config/chromium/Default
-	sqlite3 /home/pi/.config/chromium/Default/Web\ Data "CREATE TABLE meta(key LONGVARCHAR NOT NULL UNIQUE PRIMARY KEY, value LONGVARCHAR); INSERT INTO meta VALUES('version','56'); CREATE TABLE keywords (foo INTEGER);";
 
 	xres=$( cat /sys/module/*fb*/parameters/fbwidth )
 	yres=$( cat /sys/module/*fb*/parameters/fbheight )
