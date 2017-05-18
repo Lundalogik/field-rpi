@@ -17,7 +17,7 @@ apt-get install cron-apt -qq --force-yes
 echo "0 1 * * * root test -x /usr/sbin/cron-apt && /usr/sbin/cron-apt" > /etc/cron.d/cron-apt
 
 echo Using apt-get to install matchbox, chromium, etc
-apt-get install matchbox chromium-browser x11-xserver-utils ttf-mscorefonts-installer sqlite3 libnss3 unclutter xdotool -qq --force-yes
+apt-get install matchbox chromium-browser x11-xserver-utils ttf-mscorefonts-installer sqlite3 libnss3 xdotool -qq --force-yes
 
 if [ -f /etc/rc.local ]; then
 	echo Moving existing /etc/rc.local to /etc/rc.local.bak
