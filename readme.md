@@ -1,4 +1,4 @@
-# RemoteX Raspberry Pi scripts
+# Lime Field Raspberry Pi scripts
 
 We use this internally to provide a basic set of configuration scripts for
 usual setups like info displays, kiosk applications.
@@ -13,13 +13,13 @@ Pull requests are always more than welcome.
 4. Clone this repository by typing the following command:
    
    ```
-   pi$ git clone https://github.com/remotex/remotex-rpi
+   pi$ git clone https://github.com/Lundalogik/field-rpi
    ```
 
 5. Run the setup script by typing this command:
 
    ```
-   pi$ sudo ./remotex-rpi/setup-chromium-kiosk.sh
+   pi$ sudo ./field-rpi/setup-chromium-kiosk.sh
    ```
    The setup is done when you are asked to reboot the device.
    
