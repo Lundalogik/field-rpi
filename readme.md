@@ -54,7 +54,7 @@ Just edit this file and then plug the SD card back into the Raspberry Pi and boo
 4. Restart the web browser to show the new page
 
    ```
-   root@raspberrypi:/home/pi# ./remotex-rpi/restart-browser.sh
+   root@raspberrypi:/home/pi# ./field-rpi/restart-browser.sh
    ```
    
 5. Switch back to the (restarted) browser by pressing **Alt-F7**
